@@ -1,0 +1,150 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-color:whitesmoke;
+    width: 100%;
+}
+nav{
+    position: sticky;
+    top:0;
+}
+
+.container1{
+    display:flex;
+    background-color:white;
+    padding:15px; 
+    height: 60px;
+    font-family:  Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    border-radius:2px;
+    position : sticky;
+    box-shadow:0px 5px 5px rgb(217, 230, 222,0.5);
+}
+
+.itembox{
+    padding:unset;
+    height: 42px;
+    margin-top:7px;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    cursor:pointer;
+}
+
+#inp{
+    width: 400px;
+    height: 30px;
+    margin-top:8px;
+    margin-left: 280px;
+    background-color:lightgrey;
+    color:grey;
+    border:2px solid #999393;
+    border-radius:2px;
+}
+.item{
+    padding:10px;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:2px 3px;
+}
+
+.enditem{
+    margin-top:20px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.quotes{
+    /* border:2px so   lid red; */
+    display:flex;
+    flex-wrap: wrap;   
+    margin-top:40px;
+    border-radius:10px;
+    height: 473px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;   
+}
+
+.buttons{
+    font-size: 10px;
+}
+
+.container2{
+    display:flex;
+    background-color:white;
+    margin:0px  0px 24px 0px;
+    box-shadow:0px 15px 5px lightgray;
+    height: 600px;
+}
+
+.container3{
+    display:block;
+    background-color: white;
+    box-shadow:0px 15px 5px lightgray;
+    padding:5px;
+}
+
+.sec{
+    margin-right: 40px;
+    margin-left: 30px;
+    display:inline-block;
+    width:300px;
+    background-color: rgba(222, 226, 228, 0.2);
+    flex-wrap: wrap;
+    box-shadow:-5px -5px 7px lightgray;
+}
+
+#firstsecimg1{
+    width:237px;
+    height: 400px;
+   padding:30px;
+}
+
+.lastimg{
+    display:flex;
+    width: 100%;
+    height: 100px;
+    margin-top:30px;   
+    justify-content:center;
+    align-items: center;
+    background-color:white;
+    box-shadow:0px 6px 5px lightgray;
+}
+
+.lastdiv{
+    display:flex;
+    margin:auto;
+    /* border:2px solid black; */
+    height: 250px;
+    width: 100vw;
+    margin-top:20px;
+    justify-content: center;
+    box-shadow: 10px 10px lightyellow
+}
+
+.footersec{
+    display:inline-block;
+    /* border:2px solid black; */
+    width:150px;
+    height: 200px;
+    background-color:rgba(236, 236, 236, 0.2);
+    margin:20px;
+    border-radius:8px;
+    font-style :Arial ;
+    box-shadow: 5px 10px 5px rgb(217, 230, 222);  
+ }
+
+.footersec ul li{
+    list-style: none;
+}
+
+#footersec3{
+    width:400px;
+}
